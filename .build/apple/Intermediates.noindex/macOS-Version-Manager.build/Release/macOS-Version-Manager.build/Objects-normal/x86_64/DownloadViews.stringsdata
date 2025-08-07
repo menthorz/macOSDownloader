@@ -1,0 +1,448 @@
+{
+  "source": "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Configurar Download",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancelar",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Build %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "Configurações de Download",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 122
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pasta de Destino",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "Escolher...",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nome do Arquivo",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "O download será salvo em: %@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "Iniciando Download...",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "Iniciar Download",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "Downloads Ativos",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 312
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancelar Todos",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 316
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nenhum download ativo",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 331
+        }
+      },
+      {
+        "comment": "",
+        "key": "Downloads aparecerão aqui quando iniciados",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 335
+        }
+      },
+      {
+        "comment": "",
+        "key": "Histórico de Downloads",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 361
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nenhum download no histórico",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 370
+        }
+      },
+      {
+        "comment": "",
+        "key": "Downloads concluídos aparecerão aqui",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 374
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pausar",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 411
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continuar",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 416
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancelar",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 422
+        }
+      },
+      {
+        "comment": "",
+        "key": "Progresso",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 433
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 439
+        }
+      },
+      {
+        "comment": "",
+        "key": "Iniciado: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 493
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nenhum download ativo",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 576
+        }
+      },
+      {
+        "comment": "",
+        "key": "Vá para a seção 'Navegar' e clique em qualquer versão do macOS para iniciar um download",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 580
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ir para Navegar",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 593
+        }
+      },
+      {
+        "comment": "",
+        "key": "Limpar Concluídos",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 622
+        }
+      },
+      {
+        "comment": "",
+        "key": "Downloads Ativos",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 611
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld download%@ em andamento",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 615
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 667
+        }
+      },
+      {
+        "comment": "",
+        "key": "Build %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 671
+        }
+      },
+      {
+        "comment": "",
+        "key": "Progresso",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 691
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 697
+        }
+      },
+      {
+        "comment": "",
+        "key": "Velocidade",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 711
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tamanho",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 722
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pausar",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 736
+        }
+      },
+      {
+        "comment": "",
+        "key": "Retomar",
+        "location": {
+          "startingColumn": 83,
+          "startingLine": 736
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancelar",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 746
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ - Build %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 850
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pausar",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 923
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continuar",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 928
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancelar",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 934
+        }
+      },
+      {
+        "comment": "",
+        "key": "Progresso",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 945
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 951
+        }
+      },
+      {
+        "comment": "",
+        "key": "Baixado",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 966
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 978
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tempo Restante",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 990
+        }
+      },
+      {
+        "comment": "",
+        "key": "Limpar Histórico",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 1025
+        }
+      },
+      {
+        "comment": "",
+        "key": "Histórico de Downloads",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1013
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld downloads no histórico",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1017
+        }
+      },
+      {
+        "comment": "",
+        "key": "Nenhum download no histórico",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1053
+        }
+      },
+      {
+        "comment": "",
+        "key": "Downloads concluídos aparecerão aqui",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1057
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ - Build %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1108
+        }
+      },
+      {
+        "comment": "",
+        "key": "• %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1119
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1130
+        }
+      }
+    ]
+  },
+  "version": 1
+}

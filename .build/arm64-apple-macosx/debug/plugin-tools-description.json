@@ -1,0 +1,406 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.macOS-Version-Manager-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/sources",
+      "importPath" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Helpers/IconHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Models/MacOSVersion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/DownloadService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/MacOSVersionService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/TestNavigationView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/VersionGridView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "macOS_Version_Manager",
+      "moduleOutputPath" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/Modules/macOS_Version_Manager.swiftmodule",
+      "objects" : [
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.swift.o",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.swift.o",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.swift.o",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.swift.o",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.swift.o",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.swift.o",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.swift.o",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.swift.o",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j10",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "macOS_Version_Manager_main",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos_version_manager"
+      ],
+      "outputFileMapPath" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/Modules/macOS_Version_Manager.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift",
+        "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Helpers/IconHelper.swift",
+        "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Models/MacOSVersion.swift",
+        "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/DownloadService.swift",
+        "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/MacOSVersionService.swift",
+        "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/TestNavigationView.swift",
+        "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/ContentView.swift",
+        "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift",
+        "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/VersionGridView.swift"
+      ],
+      "tempsPath" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "macOS_Version_Manager" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "macOS_Version_Manager",
+      "-package-name",
+      "macos_version_manager",
+      "-incremental",
+      "-c",
+      "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift",
+      "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Helpers/IconHelper.swift",
+      "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Models/MacOSVersion.swift",
+      "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/DownloadService.swift",
+      "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/MacOSVersionService.swift",
+      "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/TestNavigationView.swift",
+      "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/ContentView.swift",
+      "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift",
+      "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/VersionGridView.swift",
+      "-I",
+      "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j10",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "macOS_Version_Manager_main",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos_version_manager",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "macOS_Version_Manager" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager-entitlement.plist" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<entitlement-plist>"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<com.apple.security.get-task-allow>"
+        }
+      ],
+      "outputFilePath" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager-entitlement.plist"
+    },
+    "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager.product/Objects.LinkFileList"
+    },
+    "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Helpers/IconHelper.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Models/MacOSVersion.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/DownloadService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/MacOSVersionService.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/TestNavigationView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/VersionGridView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/sources"
+    },
+    "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

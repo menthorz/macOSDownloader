@@ -1,0 +1,32 @@
+{
+  "source": "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Nova Janela",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Downloads",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Histórico",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 29
+        }
+      }
+    ]
+  },
+  "version": 1
+}

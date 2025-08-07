@@ -1,0 +1,14 @@
+version: "Apple Swift version 6.1.2 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)"
+options: "5968fca14e30e0be51f7efc3b7f8a8c3fe4a939a710df94baaa9ae6edb3bfe8b"
+build_start_time: [1754600057, 721539000]
+build_end_time: [1754600063, 170315000]
+inputs:
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift": [1754586445, 220612572]
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Helpers/IconHelper.swift": [1754597476, 514388496]
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Models/MacOSVersion.swift": [1754596551, 457279548]
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/DownloadService.swift": [1754584773, 837786759]
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/MacOSVersionService.swift": [1754598579, 164685908]
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/TestNavigationView.swift": [1754586269, 632120996]
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/ContentView.swift": [1754600012, 18514050]
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift": [1754598004, 54546957]
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/VersionGridView.swift": [1754597963, 147120580]

@@ -1,0 +1,55 @@
+{
+  "" : {
+    "const-values" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/macOS-Version-Manager-master.swiftconstvalues",
+    "dependencies" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/macOS-Version-Manager-master.d",
+    "diagnostics" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/macOS-Version-Manager-master.dia",
+    "emit-module-dependencies" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/macOS-Version-Manager-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/macOS-Version-Manager-master-emit-module.dia",
+    "swift-dependencies" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/macOS-Version-Manager-master.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "index-unit-output-path" : "/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/resource_bundle_accessor.o"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift" : {
+    "index-unit-output-path" : "/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/App.o",
+    "llvm-bc" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/App.bc",
+    "object" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/App.o"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Models/MacOSVersion.swift" : {
+    "index-unit-output-path" : "/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/MacOSVersion.o",
+    "llvm-bc" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/MacOSVersion.bc",
+    "object" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/MacOSVersion.o"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/DownloadService.swift" : {
+    "index-unit-output-path" : "/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/DownloadService.o",
+    "llvm-bc" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/DownloadService.bc",
+    "object" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/DownloadService.o"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/MacOSVersionService.swift" : {
+    "index-unit-output-path" : "/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/MacOSVersionService.o",
+    "llvm-bc" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/MacOSVersionService.bc",
+    "object" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/MacOSVersionService.o"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/TestNavigationView.swift" : {
+    "index-unit-output-path" : "/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/TestNavigationView.o",
+    "llvm-bc" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/TestNavigationView.bc",
+    "object" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/TestNavigationView.o"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/ContentView.swift" : {
+    "index-unit-output-path" : "/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift" : {
+    "index-unit-output-path" : "/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/DownloadViews.o",
+    "llvm-bc" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/DownloadViews.bc",
+    "object" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/DownloadViews.o"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/VersionGridView.swift" : {
+    "index-unit-output-path" : "/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/VersionGridView.o",
+    "llvm-bc" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/VersionGridView.bc",
+    "object" : "/Users/raphael/Projects/macOS-Version-Manager/.build/apple/Intermediates.noindex/macOS-Version-Manager.build/Release/macOS-Version-Manager.build/Objects-normal/arm64/VersionGridView.o"
+  }
+}

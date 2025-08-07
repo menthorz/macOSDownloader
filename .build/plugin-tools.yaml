@@ -1,0 +1,81 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe": ["<macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe>"]
+  "macOS-Version-Manager-arm64-apple-macosx15.0-debug.module": ["<macOS-Version-Manager-arm64-apple-macosx15.0-debug.module>"]
+  "main": ["<macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe>","<macOS-Version-Manager-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe>","<macOS-Version-Manager-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+  "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager":
+    is-mutated: true
+commands:
+  "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager-entitlement.plist":
+    tool: write-auxiliary-file
+    inputs: ["<entitlement-plist>","<com.apple.security.get-task-allow>"]
+    outputs: ["/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager-entitlement.plist"]
+    description: "Write auxiliary file /Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager-entitlement.plist"
+
+  "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager.product/Objects.LinkFileList":
+    tool: write-auxiliary-file
+    inputs: ["<link-file-list>","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.swift.o"]
+    outputs: ["/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager.product/Objects.LinkFileList"]
+    description: "Write auxiliary file /Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager.product/Objects.LinkFileList"
+
+  "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Helpers/IconHelper.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Models/MacOSVersion.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/DownloadService.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/MacOSVersionService.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/TestNavigationView.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/ContentView.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/VersionGridView.swift"]
+    outputs: ["/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/sources"]
+    description: "Write auxiliary file /Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/sources"
+
+  "/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe>":
+    tool: phony
+    inputs: ["<macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    outputs: ["<macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe>"]
+
+  "<macOS-Version-Manager-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/Modules/macOS_Version_Manager.swiftmodule"]
+    outputs: ["<macOS-Version-Manager-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe":
+    tool: shell
+    inputs: ["/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager.product/Objects.LinkFileList"]
+    outputs: ["/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/macOS-Version-Manager"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug","-o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager","-module-name","macOS_Version_Manager","-Xlinker","-no_warn_duplicate_libraries","-emit-executable","-Xlinker","-alias","-Xlinker","_macOS_Version_Manager_main","-Xlinker","_main","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager.product/Objects.LinkFileList","-target","arm64-apple-macosx13.0","-Xlinker","-add_ast_path","-Xlinker","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/Modules/macOS_Version_Manager.swiftmodule","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g"]
+
+  "C.macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe-entitlements":
+    tool: shell
+    inputs: ["/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager-entitlement.plist"]
+    outputs: ["<macOS-Version-Manager-arm64-apple-macosx15.0-debug.exe-CodeSigning>"]
+    description: "Applying debug entitlements to ./.build/arm64-apple-macosx/debug/macOS-Version-Manager"
+    args: ["codesign","--force","--sign","-","--entitlements","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager-entitlement.plist","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS-Version-Manager"]
+
+  "C.macOS-Version-Manager-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Helpers/IconHelper.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Models/MacOSVersion.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/DownloadService.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/MacOSVersionService.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/TestNavigationView.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/ContentView.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift","/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/VersionGridView.swift","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/sources"]
+    outputs: ["/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.swift.o","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/Modules/macOS_Version_Manager.swiftmodule"]
+    description: "Compiling Swift Module 'macOS_Version_Manager' (9 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","macOS_Version_Manager","-emit-dependencies","-emit-module","-emit-module-path","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/Modules/macOS_Version_Manager.swiftmodule","-output-file-map","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/output-file-map.json","-incremental","-c","@/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/macOS_Version_Manager.build/sources","-I","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx13.0","-enable-batch-mode","-index-store-path","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j10","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/raphael/Projects/macOS-Version-Manager/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-entry-point-function-name","-Xfrontend","macOS_Version_Manager_main","-color-diagnostics","-swift-version","5","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","macos_version_manager"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/","/Users/raphael/Projects/macOS-Version-Manager/Package.swift","/Users/raphael/Projects/macOS-Version-Manager/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

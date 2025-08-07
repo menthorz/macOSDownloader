@@ -1,0 +1,59 @@
+{
+  "": {
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/master.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/App.swift": {
+    "dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.d",
+    "object": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.swift.o",
+    "swiftmodule": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App~partial.swiftmodule",
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/App.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Helpers/IconHelper.swift": {
+    "dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.d",
+    "object": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.swift.o",
+    "swiftmodule": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper~partial.swiftmodule",
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/IconHelper.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Models/MacOSVersion.swift": {
+    "dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.d",
+    "object": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.swift.o",
+    "swiftmodule": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion~partial.swiftmodule",
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersion.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/DownloadService.swift": {
+    "dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.d",
+    "object": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.swift.o",
+    "swiftmodule": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService~partial.swiftmodule",
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadService.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Services/MacOSVersionService.swift": {
+    "dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.d",
+    "object": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.swift.o",
+    "swiftmodule": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService~partial.swiftmodule",
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/MacOSVersionService.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/TestNavigationView.swift": {
+    "dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.d",
+    "object": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.swift.o",
+    "swiftmodule": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView~partial.swiftmodule",
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/TestNavigationView.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/ContentView.swift": {
+    "dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.d",
+    "object": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.swift.o",
+    "swiftmodule": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/ContentView.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/DownloadViews.swift": {
+    "dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.d",
+    "object": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.swift.o",
+    "swiftmodule": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews~partial.swiftmodule",
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/DownloadViews.swiftdeps"
+  },
+  "/Users/raphael/Projects/macOS-Version-Manager/Sources/macOS-Version-Manager/Views/VersionGridView.swift": {
+    "dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.d",
+    "object": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.swift.o",
+    "swiftmodule": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView~partial.swiftmodule",
+    "swift-dependencies": "/Users/raphael/Projects/macOS-Version-Manager/.build/index-build/arm64-apple-macosx/debug/macOS_Version_Manager.build/VersionGridView.swiftdeps"
+  }
+}
