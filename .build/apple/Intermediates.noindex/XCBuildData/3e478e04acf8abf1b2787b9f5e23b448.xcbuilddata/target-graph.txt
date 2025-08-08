@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'AllExcludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'macOS-Version-Manager_-3A0D38D91F40F51D_PackageProduct' in project 'macOS-Version-Manager'
+Target 'macOS-Version-Manager_-3A0D38D91F40F51D_PackageProduct' in project 'macOS-Version-Manager' (no dependencies)
